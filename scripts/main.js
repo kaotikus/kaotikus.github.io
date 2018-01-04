@@ -22,7 +22,7 @@ function setUserName() {
 if(!localStorage.getItem('name')) {
     setUserName();
 } else {
-    var storedName = locaStorage.getItem('name');
+    var storedName = localStorage.getItem('name');
     myHeading.textContent = 'Mozilla is cool, ' + storedName;
 }
 
